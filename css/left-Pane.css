@@ -89,6 +89,7 @@
     height: 60px;
     flex-wrap: wrap;
     width: 100%;
+    padding-bottom: 50px;
 }
 #btn_UploadCv, #btn_ShareCv {
     height: 28px;
@@ -102,6 +103,10 @@
     color: azure;
     border-right: dashed white;
     border-left: dashed white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #btn_UploadCv:hover, #btn_ShareCv:hover {
     border-right: dashed white;
