@@ -1,0 +1,145 @@
+@import url('utils-And-Animation.css');
+.main {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    width: 100%;
+}
+/*------entête------*/
+.titleMain {
+    color: azure;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    height: fit-content;
+    justify-content: center;
+    font-size: 4vh;
+    margin-top: 20px;
+}
+.work {
+    color: bisque;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-size: 2em;
+    font-family: monospace;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+/*------section-profil-and-tech-----*/
+.Group_one {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Profil, .Technologie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 700px;
+    border: solid 1px black;
+    padding: 8px;
+    margin: 0 20px;
+    margin-bottom: 30px;
+}
+.profilTitle, .TechnologieTitle {
+    margin-top: -30px;
+    margin-bottom: 0;
+    font-size: 2.2em;
+    color: azure;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.profilText {
+    font-size: 1.4em;
+    color: bisque;
+    margin: 0;
+    text-align: justify;
+}
+.ico {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.icoTech {
+    font-size: 2em;
+    padding: 0 20px;
+}
+.icoTech:nth-child(2) {
+    color: orangered;
+}
+.icoTech:nth-child(3) {
+    color: blue;
+}
+.icoTech:nth-child(4) {
+    color: purple;
+}
+.icoTech:nth-child(5) {
+    color: green;
+}
+.icoTech:nth-child(6) {
+    color: rgb(190, 141, 33);
+}
+.icoTech:nth-child(7) {
+    color: rgb(48, 113, 134);
+}
+/*------section-Diplôme-comp-front-and-back------*/
+.Group_two {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px;
+    border: solid 1px black;
+    width: 100%;
+}
+.diplome {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+.diplome p {
+    padding-left: 30px;
+    color: bisque;
+}
+.diplomeTitle {
+    margin-top: -23px;
+    margin-bottom: 0;
+    margin-left: 32px;
+    width: 95%;
+    font-size: 2em;
+    color: azure;
+    font-weight: 700;
+}
+.competenceTitle {
+    padding-left: 15px;
+    color: bisque;
+    border-bottom: white 2px solid;
+    width: fit-content;
+}
+.Frontend, .Backend {
+    color: bisque;
+}
+.comp {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.p_Comp {
+    width: 95%;
+    margin-top: -10px;
+    font-size: 1.2em;
+    color: azure;
+    font-weight: 700;
+    margin-left: 30px;
+}

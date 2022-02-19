@@ -1,0 +1,118 @@
+/* ----IMPORT-FILES---- */
+@import url('utils-And-Animation.css');
+/* ---------------left-Pane--------------- */
+/* ----picture---- */
+.groupPicAndTitle {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 250px;
+}
+.picture_Biard {
+    display: flex;
+    border-radius: 50%;
+    animation: borderAnim 500ms ease-out infinite;
+    margin: 10px 0;
+}
+/* ----list-navigation---- */
+.title_Section {
+    margin: 0;
+    background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: slideTitle 2.5s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 2em;
+    white-space: nowrap;
+}
+.liste {
+    display: flex;
+    width: 100%;
+    background: transparent;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.groupNav {
+    display: flex;
+    width: 68%;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.groupNav div {
+    margin: 10px 0;
+}
+@media only screen and (max-width: 1100px) {
+    .liste {
+        flex-direction: column;
+    }
+    .groupNav {
+        margin: 40px 0;
+    }
+
+}
+.hardSkills, .softSkills, .madSkills {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: fit-content;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(5px);
+    margin: 0;
+    cursor: pointer;
+}
+.Nav {
+    font-size: 2vh;
+    font-family: cursive;
+    color: white;
+    margin: 0;
+}
+/* ----Contact---- */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#btn_Contact, #btn_UploadCv, #btn_ShareCv {
+    height: 28px;
+    width: 220px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    border-radius: 2em;
+    border: dashed 1px;
+}
+#btn_Contact:hover, #btn_UploadCv:hover, #btn_ShareCv:hover {
+    color: bisque;
+    border-right: dashed white;
+    border-left: dashed white;
+    height: 50px;
+    transition: 100ms linear;
+}
+/*--------Deployed--------*/
+.NavDeployed {
+    overflow: hidden;
+    animation: slideDown 0.9s linear forwards;
+    height: auto;
+    width: 100%;
+    color: white;
+    background: transparent;
+}
+.notVisible {
+    display: none;
+}

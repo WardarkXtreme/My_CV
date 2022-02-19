@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biard Florian, développeur web fullstack JS. Sur cette page vous trouverez mes qualifications, mes projets et mon Curriculum vitæ !">
+    <link rel="icon" type="image/x-icon" href="./img/ico.png">
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="https://kit.fontawesome.com/8be45f96a1.js" crossorigin="anonymous"></script>
+    <title>Biard Florian</title>
+</head>
+<body>
+    <section class='liste'>
+        <div class="groupPicAndTitle">
+            <img src="./img/biard.jpg" alt="Florian Biard" class="picture_Biard" height="200" width="200">
+            <h1 class="title_Section">Développeur passionné</h1>
+        </div>    
+        <div class='groupNav'>
+            <div class="hardSkills">
+                <p id="NavHardSkills" class='Nav'>Hard skills</p>
+                <ul id="contentHardSkills" class="notVisible">
+                    <li>RNCP nv5 (bac+2)</li>
+                    <li>Github</li>
+                    <li>React</li>
+                    <li>Base de donnée SQL</li>
+                    <li>Base de donnée noSQL (mongoDB)</li>
+                </ul>
+            </div>
+            <div class="softSkills">
+                <p id="NavSoftSkills" class='Nav'>Soft skills</p>
+                <ul id="contentSoftSkills" class="notVisible">
+                    <li>Passion</li>
+                    <li>Patience</li>
+                    <li>Respect</li>
+                    <li>Discipline</li>
+                    <li>Attentif</li>
+                </ul>
+            </div>
+            <div class="madSkills">
+                <p id="NavMadSkills" class='Nav'>Mad skills</p>
+                <p id="contentMadSkills" class="notVisible">
+                    Passionné par la technologie depuis mon plus jeune âge j'ai toujours voulu comprendre les mystères du monde numérique.
+                    Grâce à cette passion globale de l'informatique j'ai acquis des notions fortes dans le domaine du développement
+                    mais aussi du reconditionnement.
+                    Je controle moi-même et souvent le bon état des composants de mon ordinateur, leurs températures, taux d'usures et performances,
+                    rien ne méchappe.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <h2 class="titleMain">Biard Florian</h2>
+        <p class="work">Développeur web fullstack (JS)</p>
+        <div class="Group_one">
+            <section class="Profil">
+                <h3 class="profilTitle">Profil</h3>
+                <p class="profilText">
+                    Actuellement en recherche d’un poste dans le développement web,<br>
+                    je recherche en premier lieu un poste Fullstack, mais je ne suis pas fermé
+                    à accroître mes compêtences en acceptant un poste  Frontend ou Backend.
+                </p>
+            </section>
+            <section class="Technologie">
+                <h3 class="TechnologieTitle">Technologies maitrisées</h3>
+                <div class="ico">
+                    <i class="fab fa-github icoTech"></i>
+                    <i class="fab fa-html5 icoTech"></i>
+                    <i class="fab fa-css3-alt icoTech"></i>
+                    <i class="fab fa-sass icoTech"></i>
+                    <i class="fab fa-node icoTech"></i>
+                    <i class="fab fa-js icoTech"></i>
+                    <i class="fab fa-react icoTech"></i>
+                </div>
+            </section>
+        </div>
+        <div class="Group_two">
+            <section class="diplome">
+                <h3 class="diplomeTitle">Diplôme</h3>
+                <p>Actuellement diplômé, titre RNCP de niveau cinq (bac+2)</p>
+                <p>Diplôme obtenu sur le parcours diplômant d'Openclassrooms.</p>
+            </section>
+            <section class="competence">
+                <h3 class="competenceTitle">Compétences acquises</h3>
+                <section class="comp">
+                    <p class="p_Comp">Frontend</p>
+                    <ul class="Frontend">
+                        <li>Integrer l'UI avec HTML5, CSS, SASS, JAVASCRIPT, REACT en suivant une maquette graphique</li>
+                        <li>Créer un site web s’adaptant au support, en le rendant totalement responsive design</li>
+                        <li>Créer des animations modernes, fluides et naturelles</li>
+                        <li>Se connecter à un service web pour exploiter des données tierces (API)</li>
+                        <li>Appliquer les standards du web et les normes en vigueur (accessibilité, SEO, performances...)</li>
+                        <li>Concevoir un site maintenable grâce à la gestion des erreurs et exceptions</li>
+                        <li>Gestion des affichages conditionnels</li>
+                    </ul>
+                </section>
+                <section class="comp">
+                    <p class="p_Comp">Backend</p>
+                    <ul class="Backend">
+                        <li>Création d'API sécurisée</li>
+                        <li>Gestion du stockage multimédia</li>
+                        <li>Gestion des authentifications ou rôles</li>
+                        <li>Création de routes CRUD</li>
+                        <li>Gestion base de données mongoDB</li>
+                        <li>Gestion de base de donnée Sql</li>
+                        <li>Traitement des données et des types, entrants et sortants de l'API</li>
+                        <li>Mise en place des sécuritées contre les attaques XSS ou injection SQL</li>
+                    </ul>
+                </section>
+            </section>
+        </div>
+    </section>
+    <div class="contact">
+        <button id="btn_UploadCv">Téléchager le cv</button>
+        <button id="btn_ShareCv">Partager le cv</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
