@@ -18,4 +18,19 @@ clickSoftSkills.addEventListener('click', () => {
 clickMadSkills.addEventListener('click', () => {
     toggleMadSkills = !toggleMadSkills
     document.getElementById('contentMadSkills').setAttribute("class", toggleMadSkills ? 'NavDeployed' : 'notVisible');
-});
+})
+
+// ** Share
+const btnShare = document.getElementById('btn_ShareCv');
+const myUrl = encodeURIComponent(document.location.href);
+const urlShare = "https://www.linkedin.com/shareArticle?url=" + myUrl;
+const strWindowFeatures = "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes"
+
+btnShare.addEventListener('click', (e) => {
+    e.preventDefault()
+    window.open(
+        urlShare,
+        "Share as LinkedIn",
+        strWindowFeatures
+    );
+})

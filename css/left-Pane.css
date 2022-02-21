@@ -99,7 +99,7 @@
     background: transparent;
     font-size: 20px;
     border-radius: 2em;
-    border: dashed 1px;
+    border: none;
     color: azure;
     border-right: dashed white;
     border-left: dashed white;
@@ -107,6 +107,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#btn_ShareCv {
+    justify-content: space-around;
 }
 #btn_UploadCv:hover, #btn_ShareCv:hover {
     border-right: dashed white;
@@ -125,4 +128,7 @@
 }
 .notVisible {
     display: none;
+}
+.icoShare {
+    color: rgb(1,115,176);
 }
